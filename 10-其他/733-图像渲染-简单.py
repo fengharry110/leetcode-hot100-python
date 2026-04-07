@@ -125,4 +125,11 @@ if __name__ == "__main__":
     # 测试用例4
     print("\n" + "=" * 50)
     print("测试用例4: image = [[1,1,1],[1,1,1],[1,1,1]], sr = 1, sc = 1, newColor = 1")
-    image4
+    image4 = [[1,1,1],[1,1,1],[1,1,1]]
+    sr4 = 1
+    sc4 = 1
+    newColor4 = 1
+    solution4 = Solution()
+    result4 = solution4.floodFill(image4, sr4, sc4, newColor4)
+    print(f"结果: {result4}")
+    print(f"期望结果: [[1,1,1],[1,1,1],[1,1,1]]")
